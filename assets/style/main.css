@@ -1,0 +1,98 @@
+.container-fluid{
+    background:#E5E5E5;
+    background-image: url(../imgs/background.svg);
+background-position: bottom;
+background-repeat: no-repeat;
+}
+
+.nav-link{
+    color:#758498;
+    text-decoration: none;
+}
+
+#status p{
+  background: #F5F7FA;
+border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+.footer-bg{
+    background-image: url(../imgs/background.svg);
+background-position: bottom;
+background-repeat: no-repeat;
+}
+
+section{
+padding-top:3%;
+text-align: center;
+}
+
+aside{
+ text-align: center;
+}
+
+.form-box{
+background-color:#fff;
+padding:2% 4% 3% 4%;  
+}
+
+/* FOCUS MOSTRA LABEL */
+.form-group {
+    position: relative;
+}
+
+label {
+    display: none;
+    position: absolute;
+    top: -13px;
+    left: 10px;
+    background: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#ced4da;
+}
+
+/* FIM FOCUS MOSTRA LABEL */
+
+/* VALIDAÇÃO INPUTS */
+.error-message{
+    width: 100%;
+    background:#F0175C;
+    color:#fff;
+    margin:5px 0 10px 0;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+
+    }
+.flags{
+    width: 30%;
+}
+
+/* FIM VALIDAÇÃO INPUTS */
+
+.button {
+    text-align: center;
+margin-top:30px;
+}
+
+.button .btn {
+
+background:#14E298;
+color:#fff;
+font-weight:700;
+border:none;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+border-radius: 3px;
+}
+
+.button .btn:hover {
+    background: #23F7AB;
+}
+
+      
